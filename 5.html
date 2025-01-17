@@ -1,0 +1,70 @@
+<!---
+TYPES OF CSS:
+1.INLINE CSS ------  eg: (style:color=red) style-attribute, color-key, red-value
+2.INTERNAL CSS----- eg:(<style></style> ------ head tag) calling----class(.) or id(#)
+3.EXTERNAL CSS-------In separate file
+                             --- to link html file--- link:css(href="css file name")
+
+  priority order:
+  inline> external > internal                          
+-->
+
+<!---
+color theory:
+1. rgb(red,green,blue)---- 255=max value, 0= min value
+2.HEX(red,green,blue)-------eg:#236756
+3.HSL(hue(degree on the color wheel),saturation,lightness)
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p2 {
+            color: brown;
+            font-size: 30px;
+        }
+    </style>
+    <link rel="stylesheet" href="new.css">
+
+</head>
+
+<body>
+    <div style="color: blue;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint quae, quam rerum aspernatur
+        reprehenderit fugiat
+        quibusdam accusamus, doloribus soluta labore facilis. Reiciendis officiis ullam, fugit dolor ea a eligendi non.
+    </div>
+    <P class="p1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vitae ducimus reiciendis illo, itaque porro
+        impedit, assumenda deserunt quod natus sapiente! Vitae iure molestiae amet adipisci accusantium repellendus est
+        provident, sequi rerum porro similique libero dolorum nesciunt! Deleniti vero repellendus dignissimos
+        reiciendis. Commodi, consequatur perferendis!
+    </P>
+    <p id="p2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cupiditate beatae sequi iusto dolore molestias
+        fugit reprehenderit possimus esse? Officiis tempore sit dolore in, deserunt quos iusto beatae officia
+        reiciendis.
+    </p>
+    <div class="p3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente tenetur iusto sed suscipit fugiat
+        accusamus quidem repudiandae ipsum soluta maiores, earum sequi temporibus mollitia aliquid voluptas in totam
+        eius?
+    </div>
+    <div class="pic-img">
+        <img src="new.jpg" class="pic-img">
+    </div>
+    
+
+    
+
+
+
+</body>
+
+</html>
